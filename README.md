@@ -10,3 +10,10 @@ Drei : Fiber를 기반으로 한 유틸리티 모음 라이브러리
 (자주 사용되는 3D 기능들을 미리 컴포넌트로 만들어 놓음)
 
 설치 :: npm i three @react-three/fiber @react-three/drei
+
+# gltfjsx
+
+glb 파일을 jsx/tsx 코드로 변환해주는 라이브러리
+
+사용법 : npx gltfjsx glb파일위치 -o 출력위치
+npx gltfjsx public/Pikachu.glb -o src/app/three/pikachu.tsx
